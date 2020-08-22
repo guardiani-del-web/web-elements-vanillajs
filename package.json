@@ -8,6 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "react": "^16.13.1",
     "style.css": "^1.0.0",
     "web-elements": "^0.1.0"
   },
