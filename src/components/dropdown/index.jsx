@@ -1,4 +1,4 @@
-export const Dropdown = `<div className="component">
+export const Dropdown = `<div class="component">
             <h2>Dropdown</h2>
             <we-dropdown-group>
                 <we-dropdown-item

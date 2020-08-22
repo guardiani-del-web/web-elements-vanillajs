@@ -6,7 +6,7 @@ function Button() {
     const value="pressed";
 
     return (
-        <div className="component">
+        <div class="component">
             <h2>Button</h2>
             <we-button label={label} value={value}></we-button>
         </div>

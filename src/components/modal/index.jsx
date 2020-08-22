@@ -1,4 +1,4 @@
-export const Modal = `<div className="component">
+export const Modal = `<div class="component">
             <h2>Modal</h2>
             <we-modal>
                 <div>Slot Example</div>

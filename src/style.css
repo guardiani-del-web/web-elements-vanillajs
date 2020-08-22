@@ -1,4 +1,10 @@
-body {
-    font-family: sans-serif;
-  }
-  
+.component {
+  padding: 25px;
+  border-bottom: 2px black dashed;
+}
+
+h1 {
+  padding-bottom: 20px;
+  border-bottom: 2px black dashed;
+  text-align: center;
+}

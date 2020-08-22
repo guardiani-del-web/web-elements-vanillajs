@@ -15,14 +15,17 @@ const value1 = "chip 1";
 const value2 = "chip 2";
 const value3 = "chip 3";
 
-const element = React.useRef(null);
-useEventListener(element, "chipsGroupCallback", (data) =>
-  console.log("chipsGroupCallback", data)
-);
+export const ChipsListener = () => {
+  const element = document.querySelector("#we-chips-group");
+  console.log(element);
+  useEventListener(element, "chipsGroupCallback", (data) =>
+    console.log("chipsGroupCallback", data)
+  );
+};
 
-export const Chips = `<div className="component">
+export const Chips = `<div class="component">
       <h2>Chips</h2>
-      <we-chips-group value=${nameGroup} ref=${element}>
+      <we-chips-group value=${nameGroup} id="we-chips-group">
         <we-chips
           value=${value1}
           src-img-left=${image1}

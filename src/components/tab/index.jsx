@@ -19,7 +19,7 @@ export const tabsData = [
   },
 ];
 
-export const Tab = `<div className="component">
+export const Tab = `<div class="component">
       <h2>Tab</h2>
       <we-tab-group>
           <we-tab enabled=${tabsData[0].enabled}>
