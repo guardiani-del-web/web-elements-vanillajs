@@ -1,7 +1,7 @@
 # Web Elements 💎 with React
 
 If you want to use [Web Elements](https://github.com/guardiani-del-web/web-elements) in your project with Angular follow this repository.
-You can try this demo on [CodeSanbox](https://codesandbox.io/s/github/guardiani-del-web/web-elements-react).
+You can try this demo on [CodeSanbox](https://codesandbox.io/s/web-elements-vanillajs-yqohx).
 
 
 ## Our Contributors ✨
